@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/ls.jpeg">
+    <title>Lyte Syte</title>
+    <link rel="stylesheet" href="proj.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
+
+
+    <script>
+
+        $(function () {
+            jQuery(window).on('scroll', function () {
+                if (jQuery(window).scrollTop() < 50) {
+                    jQuery('#header').css('background-color', 'transparent');
+
+                } else if (jQuery(window).hover() < 50) {
+                    jQuery('#header').css('background-color', '#034b35');
+                }
+                else {
+                    jQuery('#header').css('background-color', '#034b35');
+                }
+
+            })
+        });
+    </script>
+
+
+</head>
+
+<body>
+
+    <div id="containers">
+
+        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+            <source src="../Proj/images/back.mp4" type="video/mp4">
+
+        </video>
+
+        <div id="header">
+            <div id="logo" class="log">
+                <img id="immm" src="../Proj/images/ls.jpeg" alt="Logo">
+                <p>Lyme-Syte</p>
+            </div>
+
+            <div class="topnav" id="myTopnav">
+                <a href="#containers">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Service</a>
+                <a href="#team">Team</a>
+                <a href="#folio">Portfolio</a>
+                <a href="#cont">Contact Us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i id="iconn" class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div id="heading">
+            <h1>Start your bussiness with one of<span id="green"> the fastest-growing developing agency</span></h1>
+            <p id="pra">We develop responive web application for clients from all over the world </p>
+            <button id="btnn">Start project</button>
+        </div>
+    </div>
+    <div class="logo1" id="logoo1">
+        <i style="color:rgb(251, 252, 250);" class="fab fa-2x fa-whatsapp"></i>
+    </div>
+
+    <header id="about" data-aos="fade-up">
+
+        <h1>About Us</h1>
+
+    </header>
+
+    <div class="container" data-aos="fade-right">
+
+        <div class="item" id="i1">
+
+            <div id="paragraph">
+
+                <h1 style="font-weight: 800;">Who are we?</h1>
+                <p>lyte-Syte is a movement aimed at providing digital solutions to the country's increasing reliance on
+                    e-commerce. Our company specialises in website design and production. Our online interfaces are
+                    high-performing, and technologically transformative, designed to be user-friendly, fully functional,
+                    extremely stable, and ready to scale as the company grows.</p>
+
+                <p> Lyte-Syte has aided in the creation of a visually appealing website with an appealing user
+                    interface. We want to engage visitors at different stages of the customer journey and rank for key
+                    search terms on a variety of devices. With well over a decade of experience, we are experts at
+                    designing bold and creative websites. Our website developers offer our clients specialised web
+                    application development and web design services.</p>
+                <p>When we create your website,we will make certain that your target users come first. Contact us for
+                    advice on the best features and allow us to create user-friendly designs for your clients safe
+                    navigation.
+                <p>
+
+            </div>
+
+        </div>
+
+        <div class="item" id="i2">
+
+            <img src="images/about.jpg">
+
+        </div>
+
+    </div>
+
+    <div id="mid">
+
+        <h1 style="font-weight: 800;">An E-commerce that calls</h1>
+        <p>As today’s relation with brand and customer identity is changing and it all shifting towards digital
+            platforms, nothing is more frustrating than an e-commerce portal that is impossible to navigate. Our
+            e-commerce UX interface caters to your business’s special consumer journeys and makes it simple for
+            customers to order your items.</p>
+
+    </div>
+
+    <div class="last-container">
+
+        <div class="last" id="l1" data-aos="flip-left">
+
+            <div id="img1">
+
+                <img src="images/Full-stack.jpg" alt="Full-stack">
+
+            </div>
+            <div id="img2">
+
+                <img src="images/graphic.jpg" alt="Graphic">
+
+            </div>
+            <div id="img3">
+
+                <img src="images/responsive.jpg" alt="Responsive">
+
+            </div>
+
+        </div>
+
+        <div class="last" id="l2" data-aos="fade-up-right">
+
+            <div class="pp" id="pp1">
+                <h1 style="font-weight: 800;"> Full Stack Web Development </h1>
+                <p>On a laptop, phone, and handheld phones, the site must be simple to use. The websites we create are
+                    responsive to all screen sizes and they feature cutting-edge user interfaces, ensuring that the
+                    audience
+                    is engaged on all platforms.</p>
+            </div>
+
+            <div class="pp" id="pp2">
+                <h1 style="font-weight: 800;"> Graphic Design</h1>
+                <p>Your website is crucial for establishing such vital relationships with your customers. As a result,
+                    we
+                    build websites that are customized to the customers' unique requirements. Who wouldn't want a unique
+                    website that stands out from the crowd? With our support, you will make a difference in your
+                    business.
+                    Our expert’s works are skilled performers and updated individuals with deep knowledge of digital
+                    trends.
+                </p>
+            </div>
+
+            <div class="pp" id="pp3">
+                <h1 style="font-weight: 800;"> Responsive web designs</h1>
+                <p>When you approach a web design firm, how do you truly know what you're going to get? We have a 100%
+                    satisfaction guarantee, which means you'll either get the website design you want or we'll keep
+                    working
+                    on it until it's perfect. We collaborate with you and deliver product ideas that you can use. No one
+                    knows your business as well as you do! Our team is an expert for transforming your website exactly
+                    like
+                    you always wanted it to be from website maintenance services to website redesign. We specialize in
+                    transforming old and dated websites and providing a real return on investment results. To fuel your
+                    visual tool for influence and audience target, contact us today to kick start your business and
+                    elevate
+                    your site ratings.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="Contact" data-aos="fade-up">
+
+        <h1 id="cont">Contact Us</h1>
+
+    </div>
+
+    <div class="form" data-aos="slide-right">
+
+        <div class="f1" id="form1">
+
+            <div id="f1-child">
+
+                <h2>Let's get in touch</h2>
+                <p>We're open for any suggestion or <br> just to have a chat</p>
+
+                <div id="fin">
+
+                    <p><i style="color: white;" class="fas fa-map-marker-alt"></i>Location: 120,near New York city</p>
+                    <br>
+                    <p><i style="color: white;" class="fas fa-phone"></i>Phone: +5434574532934</p> <br>
+                    <p><i style="color: white;" class="fas fa-comment"></i>Email: acahdkasa@gamil.com</p> <br>
+                    <p><i style="color: white;" class="fas fa-phone"></i>Mobile: +99434574532934</p>
+                    <p><i style="color: white;margin-top: 18px;" class="fas fa-globe-americas"></i>Site: www.abc.com</p>
+                    <p><i style="color: white;margin-top: 18px; border-radius: 100%;" class="fab fa-facebook-f"></i>FB:
+                        www.fb.com</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="f1" id="form2">
+
+            <div id="f1-child2">
+
+                <h2>Get in touch</h2>
+
+                <form>
+
+                    <div id="lab">
+                        <label for="name">Name: </label> <br>
+                        <input type="text" name="name" id="name" placeholder="Name">
+
+                        <br>
+                        <label for="Email">Email: </label> <br>
+                        <input type="email" name="Email" id="Email" placeholder="Email">
+
+                        <br>
+                        <label for="pass">Password: </label> <br>
+                        <input type="text" name="pass" id="pass" placeholder="Password">
+
+                        <br>
+                        <label for="sub">Subject: </label> <br>
+                        <input type="text" name="sub" id="sub" placeholder="Subject">
+                    </div>
+
+                    <br>
+                    <button id="btn">Register</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="service" data-aos="fade-right">
+
+        <div class="ser">
+            <h1>Services</h1>
+
+            <h2>Web Development</h2>
+
+        </div>
+    </div>
+
+    <div class="service-para" data-aos="flip-left">
+
+        <p>Algorepublic creates outstanding responsive web applications and platforms. We value practical solutions,
+            smart designs, good architecture, and are dedicated to the success of our clients.</p>
+        <p><b>How to choose the best website builder?</b></p>
+        <p>Over the last decade, Algorepublic have tested hundreds of website builders and assisted over 1000+ users get
+            their sites up and running. Algorepublic looks at many different factors. When selecting the best we offer
+            custom website builds for each client, but our favourites are:</p>
+
+    </div>
+
+    <div class="user-friendly">
+
+        <div class="user" id="user1" data-aos="flip-left">
+
+        </div>
+        <div class="user" id="user2">
+
+            <h2>user Friendly</h2>
+            <hr class="hr1">
+            <p>Your site will become unusable if it is not user friendly, and you will lose out on new customers and
+                revenue every time it is unavailable.</p>
+            <p>Here are a few basics you need to know for user friendly websites With our solid hosting solutions, we
+                make sure your visitors will not encounter errors trying to load your site. Algorepublic will make sure
+                you don’t have to compromise on quality or service.</p>
+            <p>The SEO team will analyze your site using tools such as Ahrefs and Screaming Frog and report on any
+                broken links.</p>
+            <p>Google has also moved towards a mobile-first index meaning they index mobile versions of sites. A good
+                mobile site is thus critical to getting better search results.</p>
+        </div>
+
+    </div>
+
+    <div class="designing">
+
+        <div class="design" id="d1" data-aos="flip-left">
+
+        </div>
+        <div class="design" id="d2">
+
+            <h2>Design & Features</h2>
+            <hr class="hr1">
+            <p>Good website design benefits users by facilitating their search for information quickly and easily.</p>
+            <p>AlgoRepublic has many ways to improve a site’s usability. We use the correct labels for all fields and
+                follow good form design principles.</p>
+            <p>We make sure there are no unnecessary fields Offer tooltips and suggestions Upon completion, a message
+                will appear on the screen Our team will make sure that you are using the right validation.</p>
+
+        </div>
+
+    </div>
+
+    <div class="customer">
+
+        <div class="cust" id="c1">
+
+            <h2>Customer Support</h2>
+            <hr class="hr1">
+            <p>Understanding how to properly conduct online support is paramount in creating an amazing customer
+                experience.</p>
+            <p>Algorepublic includes choosing the correct channel, using online resources to pull out of the way, and
+                empowering teams.</p>
+
+        </div>
+        <div class="cust" id="c2" data-aos="flip-left">
+
+        </div>
+
+    </div>
+
+    <div class="language">
+
+        <div class="lang" id="ln1" data-aos="flip-left">
+
+        </div>
+        <div class="lang" id="ln2">
+
+            <h2>Among the technologies we worked on</h2>
+            <hr class="hr1">
+            <ul>
+                <li>Atom</li>
+                <li>Sublime Text</li>
+                <li>Django</li>
+                <li>Angular</li>
+                <li>ReactJS</li>
+                <li>ASP.NET</li>
+                <li>Bootstrap</li>
+                <li>Affinity Designer</li>
+            </ul>
+            <p>The web development landscape is constantly evolving. Developers at Algorepublic have many various
+                applications in their toolboxes and to remain efficient, it is imperative that they stay informed of the
+                latest developments in the industry.</p>
+
+        </div>
+    </div>
+
+    <div id="team" data-aos="fade-up">
+
+        <h1>Team Members</h1>
+
+    </div>
+
+    <div class="team-member">
+        <div class="teams" id="team1">
+           
+            <div class="namee" id="name1">
+                <h1>Ahmad Khalil</h1>
+                <p style="font-size: larger;">Web developer</p>
+                <p style="font-size: larger; margin-top: -25px;">Graphic designer</p>
+            </div>
+
+        </div>
+
+
+        <div class="teams" id="team2">
+            
+            <div class="namee" id="name2">
+                <h1>Kamran Ahmad</h1>
+                <p style="font-size: larger;">Web developer</p>
+                <p style="font-size: larger; margin-top: -25px;">Data Scientist</p>
+            </div>
+        </div>
+
+        <div class="teams" id="team3">
+            
+            <div class="namee" id="name3">
+                <h1>Muhammad Naqi</h1>
+                <p style="font-size: larger;">Web developer</p>
+                <p style="font-size: larger; margin-top: -25px;">Programmer</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="folio" data-aos="fade-up">
+
+        <h1>Portfolio</h1>
+
+    </div>
+
+    <div class="main-port" data-aos="fade-right">
+
+        <div class="portfolio">
+
+            <div class="port" id="port1">
+
+                <div class="box">
+
+                    <img class="imgs" src="images/1stweb.JPG" alt="Fashion-website">
+
+                    <div class="content">
+                        <h3>Fashion
+                            Website</h3>
+
+                        <a href="../Fashionsite/Fashionsite/index.html" target="_blank"><button class="btnn">Learn More</button></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="port" id="port1">
+
+                <div class="box">
+
+                    <img class="imgs" src="images/2web.JPG" alt="carpanter-website">
+
+                    <div class="content">
+                        <h3>Carpanter
+                            Website</h3>
+
+                        <a href="../secsite/index.html" target="_blank"> <button class="btnn">Learn More</button></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="port" id="port1">
+                <div class="box">
+
+                    <img class="imgs" src="images/3web.JPG" alt="Bootstrap-website">
+
+                    <div class="content">
+                        <h3>Responsive Bootstrap
+                            Website</h3>
+
+                        <a href="../lymesyte/lymesyte/site.html" target="_blank"><button class="btnn">Learn More</button></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="port" id="port1">
+                <div class="box">
+
+                    <img class="imgs" src="images/4web.JPG" alt="Responsive-website">
+
+                    <div class="content">
+                        <h3>Responsive
+                            Website</h3>
+
+                        <a href="../responsive/responsive/web4.html" target="_blank"> <button class="btnn">Learn More</button></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="port" id="port1">
+                <div class="box">
+
+                    <img class="imgs" src="images/5web.JPG" alt="Construction-website">
+
+                    <div class="content">
+                        <h3>Construction
+                            Website</h3>
+
+                        <a href="../construction/construction/Task 10/Task 10.html" target="_blank"> <button class="btnn">Learn
+                                More</button></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="port" id="port1">
+                <div class="box">
+
+                    <img class="imgs" src="images/6web.JPG" alt="Petition-website">
+
+                    <div class="content">
+                        <h3>Petition
+                            Website</h3>
+
+                        <a href="../petition/petition/Task 12/Task12.html" target="_blank"> <button class="btnn">Learn
+                                More</button></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="port" id="port1">
+                <div class="box">
+
+                    <img class="imgs" src="images/7web.JPG" alt="Cleaning-website">
+
+                    <div class="content">
+                        <h3>Cleaning
+                            Website</h3>
+
+                        <a href="../cleaning/cleaning/web3.html" target="_blank"> <button class="btnn">Learn More</button></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="port" id="port1">
+                <div class="box">
+
+                    <img class="imgs" src="images/1stweb.JPG" alt="Fashion-website">
+
+                    <div class="content">
+                        <h3> My Fashion
+                            Website</h3>
+
+                        <a href=""> <button class="btnn">Learn More</button></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="port" id="port1">
+
+                <div class="box">
+
+                    <img class="imgs" src="images/1stweb.JPG" alt="Fashion-website">
+
+                    <div class="content">
+
+                        <h3> My Fashion
+                            Website</h3>
+
+                        <a href=""> <button class="btnn">Learn More</button></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer" id="footer-1" data-aos="slide-right">
+
+        <div class="foot" id="foot1">
+
+            <h1>Lyme Syte</h1>
+
+        </div>
+
+        <div class="foot" id="foot2">
+
+            <h2>Company</h2>
+
+            <a href="#containers">Home</a><br>
+            <a href="#about">About</a><br>
+            <a href="#service">Service</a><br>
+            <a href="#team">Team</a> <br>
+            <a href="#folio">Portfolio</a><br>
+            <a href="#contact">Contact Us</a>
+
+        </div>
+
+        <div class="foot" id="foot3">
+            <h2>Quick Links</h2>
+            <p>Web development</p>
+            <p>Data Science</p>
+            <p>Graphic design</p>
+
+        </div>
+
+        <div class="foot" id="foot4">
+
+            <h2>Contact Us</h2>
+            <p><i style="color: white;" class="fas fa-map-marker-alt"></i>Location: 120,near New York city</p><br>
+            <p><i style="color: white;" class="fas fa-phone"></i>Phone: +5434574532934</p> <br>
+            <p><i style="color: white;" class="fas fa-comment"></i>Email: acahdkasa@gamil.com</p> <br>
+
+        </div>
+
+    </div>
+
+    <div class="foot-last">
+        <p>© COPYRIGHT 2021. ALL RIGHTS RESERVED, LYMESYTE</p>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+
+        AOS.init(
+            {
+                duration: 1050,
+                delay: 50,
+            });
+
+    </script>
+
+</body>
+
+</html>

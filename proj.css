@@ -1,0 +1,1534 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.active{
+
+    background-color:#032b27 ;
+}
+body{
+    margin: 0;
+    padding:0;
+    background-color:#032b27;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+#containers{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+#containers video{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#header{
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color:transparent;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 0;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+
+}
+#header:hover{
+    background-color:#034b35;
+    color: white;
+    z-index: 1;
+}
+#header:hover a{
+    color:white;
+}
+#logo{
+    margin-top: 15px;
+    width: 30%;
+    background-color:transparent;
+    display: flex;
+}
+#logo p{
+    margin-left: -70px;
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(129, 241, 217);
+    font-weight: bold;
+    margin-top: -12px;
+}
+
+#immm{
+    width: 60px;
+    height: 100px;
+    margin: -31px 60px;
+}
+#logo h1{
+    margin-left: 20px;
+}
+#menu{
+    width: 55%;
+    margin-top: 10px;
+    background-color: transparent;
+}
+#heading h1{
+    max-width: 800px;
+    margin: auto;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+#heading p{
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+    top:-70px;
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 34%;
+}
+#heading button{
+    width: 180px;
+    position:relative;
+    left: 570px;
+    top: -10px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:#2d8126; ;
+    color: white;
+    border: hidden;
+    position: absolute;
+    top: 74%;
+}
+.logo1{
+background-color: rgb(79, 180, 79);
+border-radius: 100%;
+display: block;
+margin: 30px 0 30px 10px;
+padding: 10px 3px 10px 3px;
+position: fixed;
+top: 80%;
+z-index: 1;
+}
+.logo1 i{
+    margin-left: 8px;
+    border:hidden;
+}
+header{
+    margin:30px 80px;
+    padding: 40px;
+    border-radius: 80px;
+    box-shadow: 2px -2px 30px rgba(51, 172, 97, 0.822);
+}
+header h1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.container{
+    padding: 20px;
+    margin:0px 80px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: repeat(1,500px);
+    justify-content: center;
+}
+#paragraph{
+    text-align: justify;
+    padding: 15px;
+}
+#paragraph h1,p{
+    padding: 20px;
+}
+#i2 img{
+    width: 450px;
+    height: 450px;
+    padding-top: 40px;
+}
+#mid{
+    padding-top:40px ;
+    text-align: center;
+    margin: 0 80px;
+}
+.last-container{
+    padding: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: repeat(1,570px);
+    margin:20px 80px ;
+}
+#l2 h1{
+    padding: 20px 0 0 20px;
+}
+#l2 p{
+    padding-bottom: 40px ;
+    text-align: justify;
+}
+img{
+    width: 150px;
+    height: 150px;
+    padding: 20px 0;
+}
+#img2{
+    padding-top:40px ;
+}
+#img3{
+    padding-top:40px ;
+}
+#Contact{
+    padding: 40px;
+    margin:20px 80px ;
+    border-radius: 80px;
+    box-shadow: 2px -2px 30px rgba(51, 172, 97, 0.822);
+}
+#Contact h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.form{
+    padding: 60px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 380px 1fr;
+    grid-template-rows: repeat(1,585px);
+    margin:0 80px ;
+}
+.f1{
+    margin-top: -20px;
+    border-radius:30px ;
+    box-shadow: 10px 15px 10px rgb(19, 18, 18);
+}
+#form1{
+    background-color: rgb(2, 33, 37);
+    box-shadow: 2px 2px 8px rgba(1, 50, 65, 0.822);
+}
+#form2{
+    background-color: rgb(2, 33, 37);
+    box-shadow: 2px 2px 8px rgba(1, 52, 68, 0.822);
+}
+input::placeholder{
+    color: rgb(238, 231, 231);
+}
+#f1-child2{
+    padding: 40px;
+}
+#f1-child2 h2{
+     text-align: center;
+     color: white;
+}
+#lab{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+form input{
+    padding: 8px;
+    margin-left: 40px; 
+    width: 80%;
+    box-shadow: 4px 4px 10px rgb(64, 129, 86);
+    background-color: transparent;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;  
+    outline: none;
+}
+form label{
+    margin-left: 40px;
+    font-size: large;
+    color: white;
+}
+form #btn{
+    margin: 20px 40px;
+    background-color: transparent;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 4px 4px 10px rgb(64, 129, 86);
+}
+input:hover{
+    background-color:rgb(3, 53, 24);
+    color: white;
+}
+form #btn:hover{
+    background-color:rgb(3, 53, 24); 
+   color: white;
+}
+#f1-child{
+    padding: 30px;
+}
+#f1-child h2{
+    margin-left: 20px;
+    color: white;
+}
+#f1-child p{
+    color: white;
+}
+#fin p{
+    margin-bottom: -30px;
+    color: white;
+}
+i{
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(253, 252, 252);
+    border-radius: 40px;
+}
+i:hover{
+    background-color:rgb(3, 53, 24);
+}
+#service{
+    padding: 20px;
+    margin:20px 80px;
+    height: 500px;
+    background-image: url(images/service.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+#service h1{
+    font-size: 100px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.service-para{
+    text-align: center;
+    padding: 20px;
+    margin:20px 80px ;
+}
+.user-friendly{
+    padding: 10px;
+    margin:20px 50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1,500px);
+}
+#user1{
+    background-image: url(images/user.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#user2{
+    padding: 20px;
+}
+#user2 h2{
+    margin-left: 20px;
+    line-height: 50px;
+}
+.hr1{
+    margin: 10px 20px;
+    width: 150px;
+}
+.designing{
+    padding: 10px;
+    margin:20px 50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1,400px);
+}
+#d1{
+    background-image: url(images/design.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#d2{
+    padding: 20px 0 0 20px;
+}
+#d2 h2{
+    display:inline-block;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.customer{
+    padding: 10px;
+    margin:40px 50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1,300px);
+}
+#c2{
+    background-image: url(images/cust.JPG);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+#c1{
+    padding: 20px 0 0 20px;
+}
+#c1 h2{
+    display:inline-block;
+    margin-left: 20px;
+    padding-bottom: 20px;  
+}
+.language{
+    padding: 10px;
+    margin:20px 50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1,460px);
+}
+#ln1{
+    background-image: url(images/lastt.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+#ln2{
+    padding: 20px 0 0 20px;
+}
+#ln2 ul{
+    padding: 20px 0 0 40px;
+}
+#ln2 ul li{
+    margin-bottom: 10px;
+}
+#ln2 h2{
+    display:inline-block;
+    margin-left: 20px;
+    line-height: 50px;
+}
+#folio{
+    margin:30px 80px;
+    padding: 60px;
+    border-radius: 80px;
+    box-shadow: 2px -2px 30px rgba(51, 172, 97, 0.822);
+}
+#folio h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.main-port{
+    background-color:#032b27;
+    width: 100%;
+    height: 900px;
+    padding: 50px;
+}
+.portfolio{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: repeat(3,220px);
+    padding: 30px;
+}
+#port1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 5px 30px rgb(39, 165, 81);
+}
+.imgs{
+    margin-top: -20px;
+    width: 100%;
+    height: 120%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+}
+.box::after{
+    content: "";
+    background-color:rgba(18, 94, 47, 0.822);
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: all 0.5s;
+    opacity:0;
+}
+.box::before{
+    content: "";
+    background-color:rgba(18, 94, 47, 0.822);
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.box::before{
+    top: -20%;
+}
+.box::after{
+    bottom: -20%;
+}
+#port1:hover .box::after{
+    bottom: 0%;
+    opacity:1;
+}
+#port1:hover .box::before{
+    top: 0%;
+    opacity:1;
+}
+.content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(242, 248, 240);
+    opacity: 0;
+    transform: rotate(90deg);
+    transition: all 0.7s;
+    z-index: 1;
+}
+#port1:hover .content{
+    color: white;
+    opacity: 1;
+    transform: rotate(0deg); 
+}
+.btnn{
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: rgb(13, 153, 55);
+    color: rgb(243, 223, 227);
+    border:hidden;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.topnav {
+    overflow: hidden;
+    width:100%;
+    margin-top: 10px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.topnav a:hover{
+    border-bottom: 1px solid #2d8126;
+}
+.topnav .icon {
+    display: none;
+}
+#team{
+    margin:30px 80px;
+    padding: 60px;
+    border-radius: 80px;
+    text-align: center;
+    box-shadow: 2px -2px 30px rgba(51, 172, 97, 0.822);
+}
+.team-member{
+    padding: 50px;
+    margin:20px 80px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: repeat(1,420px);
+}
+.teams{
+    background-color: #032b27;
+    text-align: center;
+    text-shadow: 5px 5px 12px black;
+    border-radius: 80px;
+    box-shadow: 2px -2px 20px rgba(24, 77, 43, 0.822); 
+}
+.T-img{
+
+    width:63%;
+    height: 60%;
+    margin-left:5px;
+}
+.footer{
+    background-color: rgb(3, 32, 16);
+    width: 100%;
+    margin:20px 0;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 25% 24% 25% 25%;
+    grid-template-rows: repeat(1,460px);
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    box-shadow: 4px 5px 30px rgb(45, 48, 45);
+}
+#foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-shadow: 6px 6px 20px black;
+}
+#foot2{
+
+    text-align: center;
+    padding-top: 30px;
+    line-height: 50px;
+}
+#foot2 a{
+    color: cornsilk;
+    font-size: large;
+}
+#foot2 a:hover{
+    color: rgb(39, 77, 201);
+}
+#foot3{
+
+    margin-left: -40px;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 35px;
+}
+#foot3 p{
+
+    font-size: larger;
+}
+#foot4 h2{
+    padding-top: 40px;
+    text-align: center;
+}
+.foot-last{
+    background-color:rgb(3, 32, 16);
+    width: 100%;
+    height: 50px;
+    color: white;
+    line-height: 10px;
+    text-align: center;
+}  
+@media screen and (max-width: 980px) 
+{
+    .topnav a{
+        display: none;}
+        .topnav a.icon {
+          float: right;
+          display: block;
+        }
+    #containers{
+        width: 120%;
+        height: 550px;
+    }
+}
+@media screen and (max-width: 980px)
+ {
+    .topnav.responsive
+     {
+         position: relative;
+        }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a 
+  {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+    #heading h1{
+        width: 500px;
+        color: white;
+        margin-top: 100px;
+        text-align: left;
+        font-size: 30px;
+    }
+    #heading p{
+        width: 500px;
+        color: white;
+        margin-top: 100px;
+        text-align: left;
+        font-size: 30px;
+        margin-left: -220px;
+        margin-top: 40px;
+    }
+    #heading button{
+        width: 180px;
+        position:relative;
+        left: 320px;
+        top: -10px;
+        height: 40px;
+        border-radius: 20px;
+        background-color:#2d8126; ;
+        color: white;
+        border: hidden;
+        position: absolute;
+        top: 74%;
+    }
+    .footer{
+        margin-top: 90%;
+        width: 120%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2,460px);
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+        box-shadow: 4px 5px 30px rgb(45, 48, 45);
+    }
+    .foot{
+        font-size: large;
+    }
+    .foot-last{
+        width: 120%;
+    }
+}
+@media screen and (max-width:340px)
+{
+    #about{
+        margin-top: 110%;
+    }
+}
+
+@media screen and (max-width:1250px)
+{
+    #heading button{
+
+        margin-left: -60px;
+    }
+    #Contact{
+        margin:90px 80px;
+    }
+    .f1{
+        margin-top: -60px;
+    }
+    .container{
+        padding: 40px;
+        margin:0px 120px;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: repeat(1,500px);
+        justify-content: center;
+    }
+    #i2 img{
+        width: 400px;
+        height: 600px;
+        padding-top: 50px;
+    }
+    #mid{
+        padding-top:80px ;
+        text-align: center;
+        margin: 0 80px;
+    }
+}
+
+@media screen and (max-width:1100px)
+{
+    #heading h1{
+        margin-left: -50px;
+    }
+    #heading button{
+
+        margin-left: -100px;
+    }
+    #Contact{
+        margin:120px 80px;
+    }
+    .f1{
+        margin-top: -90px;
+    }
+    
+}
+
+@media screen and (max-width:1060px)
+{
+    #heading button{
+
+        margin-left: -100px;
+    }
+    #folio{
+        margin:70px 80px;
+    }
+    .form{
+        grid-template-columns: 370px 480px;
+        grid-template-rows: repeat(1,585px);
+        margin-left: 50px ;
+    }
+    img{
+        width: 160px;
+        height: 160px;
+        padding: 40px 0;
+    }
+    #img2{
+        padding-top:60px ;
+    }
+    #img3{
+        padding-top:60px ;
+    }
+}
+@media screen and (max-width:960px)
+{
+    #heading h1{
+        margin-left: -50px;
+        font-size: 30px;
+    }
+    #heading button{
+
+        margin-left: -150px;
+    }
+    #folio{
+        margin-top: 100px;
+        width: 100%;
+    }
+    .f1{
+        margin-top: -90px;
+    }
+    .form{
+        grid-template-columns: 370px 400px;
+        grid-template-rows: repeat(1,585px);
+        margin-left: 50px ;
+    }
+    #Contact{
+        margin-top: 200px;
+        width: 100%;
+    }
+    header{
+       width: 100%;
+    }
+    .container{
+        padding: 50px;
+        margin:0px 120px;
+        grid-template-columns: 450px 450px;
+        grid-template-rows: repeat(1,500px);
+        justify-content: center;
+    }
+    .user-friendly{
+        padding: 20px;
+        margin:20px 50px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: repeat(1,500px);
+    }
+    .designing{
+        padding: 20px;
+        margin:20px 50px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: repeat(1,400px);
+    }
+    .customer{
+        padding: 20px;
+        margin:40px 50px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: repeat(1,300px);
+    }
+    .language{
+        padding: 20px;
+        margin:20px 50px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: repeat(1,460px);
+    }
+
+    .portfolio{
+        display: grid;
+        grid-template-columns: 450px 450px;
+        grid-template-rows: repeat(4,300px);
+        justify-content: center;
+        margin-left: 150px;
+    }
+    #service{
+        height: 300px;
+        width: 100%;
+    }
+    #team{
+        margin-top: 100px;
+        width: 100%;
+    }
+    .team-member{
+        margin:50px 60px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: repeat(1,420px);
+    }
+}
+@media screen and (max-width:800px) 
+{
+    #immm{
+        width: 90px;
+        height: 160px;
+    }
+    .log p{
+        display: none;
+    }
+
+    #team{
+        margin-top: 100px;
+        width: 120%;
+    }
+    .footer{
+        margin-top: 120%;
+        width: 150%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2,460px);
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+        box-shadow: 4px 5px 30px rgb(45, 48, 45);
+    }
+    .foot{
+        font-size: large;
+        text-align: center;
+        margin-left:50px ;
+    }
+    .foot-last{
+        width: 150%;
+    }
+
+    #containers{
+        width: 150%;
+        height: 550px;
+    }
+    .container{
+        margin-left: 40%;
+        grid-template-columns: 600px 300px;
+        grid-template-rows: repeat(1,400px);
+    }
+    .last-container{
+        padding: 20px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 180px 700px;
+        grid-template-rows: repeat(1,570px);
+        margin:50px 80px ;
+    }
+    .portfolio{
+        margin-left: 300px;
+    }
+    #folio{
+        width: 110%;
+    }
+    header{
+        width: 110%;
+    }
+    #service{
+        height: 250px;
+        width: 110%;
+    }
+    #Contact{
+        margin-top: 100px;
+        width: 110%;
+    }
+    .service-para{
+        width: 100%;
+    }
+    #mid{
+        padding-top:150px ;
+        width: 100%;
+    }
+}
+@media screen and (max-width:700px)
+{
+    #immm{
+        width: 90px;
+        height: 160px;
+    }
+    #team{
+        margin-top: 100px;
+        width: 140%;
+    }
+    #containers video{
+        width: 130%;
+        height: 550px;
+    }
+    .footer{
+        margin-top: 130%;
+        width: 180%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2,460px);
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+        box-shadow: 4px 5px 30px rgb(45, 48, 45);
+    }
+    .foot{
+        font-size: large;
+        text-align: center;
+        margin-left:50px ;
+    }
+    .foot-last{
+        width: 180%;
+    }
+}  
+@media screen and (max-width:420px)
+ {
+    #containers video{
+
+        width: 133%;
+        height: 150%;
+        object-fit: cover;
+    }
+    #header{
+        width: 100%;
+    }
+    #heading h1{
+        max-width: 800px;
+        margin: auto;
+        color: white;
+        margin-top: 45%;
+        text-align: center;
+        font-size: 43px;
+        position: absolute;
+        top: 0%;
+        left: 16%;
+    }
+    #heading #pra{
+         margin-left: -40px;
+         text-align: center;
+         margin-top: 44%;
+         font-size: 31px;
+    }
+    #heading #btnn{
+         background-color: rgb(37, 105, 31);
+         margin-left: -30px;
+         margin-top: 43%;
+         font-size: 31px;
+         height: 72px;
+    }
+    #logoo1{
+     
+        display: none;
+
+    }
+    header{
+        margin-top: 85%;
+    }
+    #immm{
+        width: 90px;
+        height: 160px;
+    }
+ }    
+
+@media screen and (max-width:600px)
+{
+    .topnav a:hover{
+        border-bottom: hidden;
+        transform: rotateY(25deg);
+    }
+    .topnav.responsive .icon {
+        position:absolute;
+        right: 0;
+        top: 0;
+        }
+    .team-member{
+        margin:50px 60px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: repeat(2,420px);
+    }
+    .namee{
+       margin-top: -270px;
+       text-align: center;
+    }
+    .namee p{
+        margin-left: 65px;
+    }
+    .footer{
+        margin-top: 560%;
+        width: 180%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,560px);
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+    }
+    .foot{
+        font-size: large;
+        font-size: 40px;
+    }
+    .foot-last p{
+        text-align: center;
+        font-size: 30px;
+    }
+    #foot1{
+        text-align: center;
+        font-size: 60px;
+
+    }
+    #foot2{
+        text-align: center;
+        margin-left: -20px;
+    }
+    #foot2 a{
+        text-align: center;
+        font-size: 40px;
+        line-height: 70px; 
+    }
+    #foot3 p{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #foot3 p{
+    
+        font-size: larger;
+    }
+    #foot4{
+        margin-left: -20px;
+    }
+    #foot4 p{
+        text-align: left;
+        margin-left: 120px;
+    }
+    #heading p{
+        width: 500px;
+        color: white;
+        margin-top: 100px;
+        text-align: left;
+        font-size: 30px;
+        margin-left: -190px;
+        margin-top: 40px;
+    }
+    #heading button{
+        width: 180px;
+        position:relative;
+        left: 280px;
+        font-size: 25px;
+        top: -10px;
+        height: 40px;
+        border-radius: 20px;
+        background-color:#2d8126; ;
+        color: white;
+        border: hidden;
+        position: absolute;
+        top: 74%;
+    }
+    #containers{
+        width: 150%;
+        height: 550px;
+    }
+    body p{
+          text-align: justify;
+    }
+    .container{
+        margin-left: 60%;
+        grid-template-columns: 650px;
+        font-size: 24px;
+        grid-template-rows: 880px 300px;
+    }
+    #i2 img{
+        width: 590px;
+        height: 500px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    #mid{
+        width: 110%;
+        font-size: 24px;
+        margin-left: 18%;
+        margin-top: 5%;
+    }
+    header{
+        width: 130%;
+        margin-left: 5%;
+    }
+    #service{
+        width: 110%;
+        margin-left: 22%;
+    }
+    .service-para{
+        width: 120%;
+        margin-left: 15%;
+        font-size: 24px;
+    }
+    #Contact{
+        width: 130%;
+        margin-left: 5%;
+    }
+    .last-container{
+        margin-left: 13%;
+        grid-template-columns: 680px;
+        font-size: 24px;
+        grid-template-rows: 400px 1900px;
+    }
+    img{
+        width: 80%;
+        height: 400px;
+        margin-left: 10%;
+        margin-bottom:250px ;
+    }
+    .pp{
+        margin-top: 20px;
+    }
+    #pp2{
+        margin-top: 400px;
+    }
+    #pp3{
+        margin-top: 400px;
+    }
+    .user-friendly{
+        margin-left: 15%;
+        grid-template-columns: 640px;
+        font-size: 24px;
+        grid-template-rows: 400px 660px;
+    }
+    .designing{
+        margin-left: 15%;
+        grid-template-columns: 640px;
+        font-size: 24px;
+        grid-template-rows: 400px 660px;
+    }
+    .customer{
+        margin-top: -200px;
+        margin-left: 15%;
+        grid-template-columns: 640px;
+        font-size: 24px;
+        grid-template-rows: 350px 350px;
+    }
+    .language{
+        margin-left: 15%;
+        grid-template-columns: 640px;
+        font-size: 24px;
+        grid-template-rows: 520px 660px;
+    }
+    #folio{
+        width: 130%;
+        margin-left: 5%;
+        margin-top: -10px;
+    }
+    .portfolio{
+        display: grid;
+        grid-template-columns: 650px;
+        grid-template-rows: repeat(9,370px);
+        margin-left: 50%;
+        grid-gap: 90px;
+    }
+    .logo1{
+        background-color: rgb(79, 180, 79);
+        border-radius: 100%;
+        display: block;
+        margin: 30px 0 30px 10px;
+        padding: 30px 15px 30px 15px;
+        position: fixed;
+        top: 80%;
+    }
+    .form{
+        margin-left: 15%;
+        font-size: 30px;
+        grid-template-columns: 600px;
+        grid-template-rows: 700px 950px;
+        grid-gap: 110px;
+    }
+    #form2 input{
+        padding: 30px;
+        border-radius: 30px;
+        width: 100%;
+        margin-left: -7px;
+    }
+    #form2 label{
+        font-size: 30px;
+        text-align: center;
+    }
+    #form2 input::placeholder{
+        font-size: 25px;
+    }
+    form #btn{
+       margin:0 34%;
+       padding: 20px;
+       width: 200px;
+       font-size: 20px;
+    }
+
+}
+@media screen and (max-width:500px)
+{
+    .footer{
+        margin-top: 690%;
+        width: 160%;
+        grid-template-columns: 1fr;
+        margin-left: -3px;
+        grid-template-rows: repeat(4,680px);
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+    }
+    .foot{
+        font-size: large;
+        font-size: 40px;
+    }
+    .foot-last p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .foot-last{
+        width: 160%;
+    }
+}
+@media screen and (max-width:440px)
+{
+    
+    .team-member{
+        margin:50px 100px;
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 480px;
+        grid-template-rows: repeat(3,650px);
+    }
+    .namee{
+       text-align: center;
+       font-size: 32px;
+    }
+    .namee p{
+        margin-left: 95px;
+    }
+    .footer{
+        margin-top: 840%;
+        width: 180%;
+        margin-left: -6px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,680px);
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+    }
+    .foot{
+        font-size: large;
+        font-size: 40px;
+    }
+    .foot-last p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .foot-last{
+        width: 180%;
+    }
+    #foot4 p{
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+}
+@media screen and (max-width:424px)
+{
+    .team-member{
+        margin:50px 100px;
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 500px;
+        grid-template-rows: repeat(3,650px);
+        margin-left: 90px;
+    }
+    .namee h1{
+        background-color: rgb(36, 44, 29);
+        margin-top: -90%;
+    }
+    #about{
+        width: 185%;
+    }
+    #about h1{
+        font-size: 60px;
+    }
+    #folio h1{
+        font-size: 60px;
+    }
+    #team{
+        width: 180%;
+        margin-left: 30px;
+    }
+    #team h1{
+        font-size: 60px;
+    }
+   
+}
+@media screen and (max-width:390px)
+{
+    #footer-1{
+        margin-top: 1000%;
+        width: 200%;
+        margin-left: -6px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,680px);
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+    }
+    .foot-last{
+        width: 200%;
+    }
+    .team-member{
+        margin:50px 100px;
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 500px;
+        grid-template-rows: repeat(3,650px);
+        margin-left: 60px;
+    }
+    .namee h1{
+        background-color: rgb(36, 44, 29);
+        margin-top: -90%;
+    }
+}
+
+@media screen and (max-width:420px)
+{
+    .footer{
+        margin-top: 860%;
+        width: 200%;
+        margin-left: -6px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,680px);
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+    }
+    .foot-last{
+        width: 200%;
+    }
+    body p{
+          text-align: justify;
+    }
+    .container{
+        margin-left: 82%;
+        grid-template-columns: 670px;
+        font-size: 30px;
+        grid-template-rows: 1250px 300px;
+    }
+    #i2 img{
+        width: 550px;
+        height: 450px;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+    #mid{
+        width: 150%;
+        font-size: 30pxpx;
+        margin-left: 18%;
+        margin-top: 5%;
+    }
+    header{
+        width: 165%;
+        margin-left:20px ;
+        font-size: 30px;
+    }
+    #service{
+        width: 160%;
+        margin:0 20px;
+        font-size: 30px;
+    }
+    .service-para{
+        width: 160%;
+        margin-left: 15%;
+        font-size: 30px;
+    }
+    #Contact{
+        width: 165%;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .last-container{
+        margin-left: 4%;
+        grid-template-columns: 650px;
+        font-size: 30px;
+        grid-template-rows: 400px 2600px; 
+    }
+    img{
+        width: 80%;
+        height: 400px;
+        margin-left: 10%;
+        margin-bottom:440px ;
+    }
+    .pp{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #pp2{
+        margin-top: 400px;
+    }
+    #pp3{
+        margin-top: 400px;
+    }
+    .user-friendly{
+        margin-left: 10%;
+        grid-template-columns: 600px;
+        font-size: 30px;
+        grid-template-rows: 400px 1000px;
+    }
+    .designing{
+        margin-left: 10%;
+        grid-template-columns: 600px;
+        font-size: 30px;
+        grid-template-rows: 400px 900px;
+    }
+    .customer{
+        margin-top: -200px;
+        margin-left: 10%;
+        grid-template-columns: 600px;
+        font-size: 30px;
+        grid-template-rows: 450px 350px;
+    }
+    .language{
+        margin-left: 10%;
+        grid-template-columns: 600px;
+        font-size: 30px;
+        grid-template-rows: 520px 880px;
+    }
+    #folio{
+        width: 165%;
+        margin-left: 3%;
+        margin-top: -10px;
+    }
+    .portfolio{
+        display: grid;
+        grid-template-columns: 680px;
+        grid-template-rows: repeat(9,400px);
+        grid-gap: 90px;
+        margin-left: 90%;
+    }
+    .logo1{
+        background-color: rgb(79, 180, 79);
+        border-radius: 100%;
+        display: block;
+        margin: 30px 0 30px 10px;
+        padding: 30px 15px 30px 15px;
+        position: fixed;
+        top: 0;
+    }
+    .form{
+        margin-left: -34px;
+        font-size: 35px;
+        grid-template-columns: 660px;
+        grid-template-rows: 800px 1050px;
+        grid-gap: 110px;
+    }
+    #form2 label{
+        font-size: 35px;
+        text-align: center;
+    }
+    #form2 input::placeholder{
+        font-size: 25px;
+    }
+    form #btn{
+       margin:0 34%;
+       padding: 20px;
+       width: 200px;
+       font-size: 30px;
+    }
+}
